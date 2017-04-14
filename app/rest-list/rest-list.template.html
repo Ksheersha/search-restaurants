@@ -1,0 +1,35 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <!--Sidebar content-->
+
+      <p>
+        Search:
+        <input ng-model="$ctrl.query" placeholder="zip code/name/cuisine"/>
+      </p>
+
+      <p>
+        Sort by:
+        <select ng-model="$ctrl.orderProp">
+          <option value="name">Alphabetical</option>
+          <option value="dist">Nearest</option>
+        </select>
+      </p>
+
+    </div>
+    <div class="col-md-10">
+      <!--Body content-->
+
+      <ul class="restaurants">
+        <li ng-repeat="restaurant in $ctrl.restaurants |   filter:$ctrl.query | orderBy:$ctrl.orderProp"
+            class="thumbnail rest-list-item">
+          <a href="#!/restaurants/{{restaurant.zip}}">{{restaurant.name}}</a>
+          <p>{{restaurant.desc}}</p>
+          <p>{{restaurant.dist}} miles</p>
+
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>

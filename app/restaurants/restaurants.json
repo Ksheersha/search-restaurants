@@ -1,0 +1,46 @@
+[
+    {
+        "zip": "94040",
+        "dist": 0,
+        "name": "The Sandwich Spot",
+        "desc": "Delis,Sandwiches,Cafe"
+    },
+
+    {
+        "zip": 94041,
+        "dist": 1,
+        "name": "Veggie Garden",
+        "desc": "Vegan,Vegetarian,Chinese"
+    },
+    {
+        "zip": 94042,
+        "dist": 2,
+        "name": "Poke Bar",
+        "desc": "Seafood,Hawaiian"
+    },
+    {
+        "zip": 94043,
+        "dist": 3,
+        "name": "Napoletana Pizzaria",
+        "desc": "Italian,Pizza"
+    },
+    {
+        "zip": 94044,
+        "dist": 4,
+        "name": "Sunny Bowl",
+        "desc": "Korean"
+    },
+
+    {
+        "zip": 94045,
+        "dist": 5,
+        "name": "Live On Air",
+        "desc": "Bar,American(Traditional)"
+    },
+    {
+    "zip": 94046,
+    "dist": 6,
+    "name": "Manilla Bowl",
+    "desc": "Filipino"
+    }
+]
